@@ -7,25 +7,56 @@
     <meta name="description" content="Vykopove prace" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JQuery script -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Script.js -->
+    <script src="js/script.js"></script>
+
+    <!-- FontAwesome script -->
+    <script
+      src="https://kit.fontawesome.com/57cda63a00.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <h1 class="logo">Vykopy EU</h1>
-      <nav>
-        <ul class="nav_links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">O nas</a></li>
-          <li><a href="#">Fotogalerie</a></li>
-        </ul>
-      </nav>
+      <div class="headerMain">
+        <div class="nav_bar">
+          <h1 class="logo">Výkopy EU</h1>
+          <nav>
+            <ul class="nav_links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">O nás</a></li>
+              <li><a href="#">Fotogalerie</a></li>
+            </ul>
+          </nav>
 
-      <a class="cta" href="#"><button>Kontakt</button></a>
+          <a class="cta" href="#"><button>Kontakt</button></a>
+
+          <div class="mobile_nav">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <div class="dropdown_menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">O nás</a></li>
+              <li><a href="#">Fotogalerie</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <section id="welcome_text">
+          <h1>Vítejte na naší vykopové webové stránce,</h1>
+          <p>kde poskytujeme špičkové a profesionální vykopávací služby.</p>
+        </section>
+      </div>
     </header>
-    <div>
-      <h1>
-        Vítejte na naší vykopové webové stránce, kde poskytujeme špičkové a
-        profesionální vykopávací služby.
-      </h1>
-    </div>
   </body>
 </html>
