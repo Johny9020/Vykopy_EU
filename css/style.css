@@ -229,6 +229,14 @@ button:hover {
     max-width: unset;
     padding: unset;
   }
+
+  .headerMain {
+    background-attachment: unset;
+  }
+
+  .our_products {
+    background-attachment: unset;
+  }
 }
 
 @media (max-width: 650px) {
