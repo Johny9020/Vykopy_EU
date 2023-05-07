@@ -139,6 +139,12 @@ button:hover {
 
 .about_us_short p {
   color: #7a7a7a;
+  margin-bottom: 1em;
+}
+
+#about_us_short_p2 {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Divider */
@@ -206,14 +212,24 @@ button:hover {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 1em;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding-left: 5em;
 }
 
+.our_products_content_right button {
+  margin-top: 2em;
+}
+
 /* Responsive  */
+
+@media (max-width: 820px) {
+  .our_products_content {
+    max-width: unset;
+    padding: unset;
+  }
+}
 
 @media (max-width: 650px) {
   .nav_links {
@@ -244,6 +260,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: unset;
   }
 
   .our_products_content_right {
@@ -251,5 +268,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-left: unset;
+    margin-top: 3em;
   }
 }
