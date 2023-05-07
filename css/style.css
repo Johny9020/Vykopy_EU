@@ -4,18 +4,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 li,
 a,
-h1,
-p,
+.nav_bar h1,
 button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #edf0f1;
   text-decoration: none;
+}
+
+#welcome_text h1,
+#welcome_text p {
+  color: white;
 }
 
 .headerMain {
@@ -65,7 +71,7 @@ button {
 }
 
 #welcome_text {
-  height: calc(100vh - 15em);
+  height: calc(100vh - 9em);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,6 +122,99 @@ button:hover {
   justify-content: center;
 }
 
+/* Short about us section */
+.about_us_short {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3em;
+  text-align: center;
+  padding: 5em 0;
+}
+
+.about_us_short h1 {
+  padding-bottom: 1em;
+}
+
+.about_us_short p {
+  color: #7a7a7a;
+}
+
+/* Divider */
+.divider {
+  padding-bottom: 2em;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.divider:before,
+.divider:after {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff87;
+  display: inline-block;
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+/* Our Products */
+.our_products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://websitedemos.net/sierra-industry-02/wp-content/uploads/sites/340/2018/11/working-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: fit-content;
+  color: white;
+  padding: 2em;
+}
+
+.our_products_content {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  max-width: 1140px;
+  padding: 7em;
+}
+
+.our_products_content p {
+  color: #ffffffa3;
+}
+
+.our_products_content_left {
+  width: 100%;
+  padding: 1em;
+  padding-right: 5em;
+}
+
+.our_products_content_right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 5em;
+}
+
+/* Responsive  */
+
 @media (max-width: 650px) {
   .nav_links {
     display: none;
@@ -134,5 +233,23 @@ button:hover {
 
   .dropdown_menu {
     display: block;
+  }
+
+  .our_products_content {
+    flex-direction: column;
+  }
+
+  .our_products_content_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .our_products_content_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
