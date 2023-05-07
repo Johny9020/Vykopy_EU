@@ -17,3 +17,4 @@ jobs:
           server: 279951.w51.wedos.net
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
+          server-dir: /www/domains/vykopy-eu.cz/
