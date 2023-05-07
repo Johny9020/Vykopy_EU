@@ -11,10 +11,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@main
-      - name: Insta;; dependancies
-        run: npm ci
-      - name: Build dependancies
-        run: npm run build
       - name: Archive production artifact
         uses: actions/upload-artifact@main
         with:
