@@ -71,7 +71,7 @@ button {
 }
 
 #welcome_text {
-  height: calc(100vh - 15em);
+  height: calc(100vh - 9em);
   display: flex;
   flex-direction: column;
   justify-content: center;
