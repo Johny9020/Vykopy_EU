@@ -1,9 +1,12 @@
 # 💫 About Project:
 🔭 This is a project i'm working on for a company called GSJ Engineering based in Czech Republic. Feel free to contribute if you want to!
 
+<<<<<<< HEAD
 #Working Branch:
 This is a branch where i code the website and do bug fixes ect before it goes into the production branch!
 
+=======
+>>>>>>> origin/production
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
