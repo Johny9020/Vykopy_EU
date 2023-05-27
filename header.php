@@ -28,7 +28,7 @@
               <li><a href="#">Fotogalerie</a></li>
             </ul>
           </div>
-        </div>
+        </div>`
 
         <section id="welcome_text">
           <h1>Vítejte na Výkopy EU,</h1>
