@@ -66,34 +66,30 @@
             <!-- Left Content -->
 
             <section class="divider">
-              <h1>Naše produkty</h1>
+              <h1>Naše služby</h1>
               <p>
-                Krátký popis produktu zdůrazňující hlavní použití a vlastnosti
-                výrobku.
+              Na našem webu naleznete komplexní přehled služeb, které s obrovským profesionálním nasazením a zkušenostmi poskytujeme našim klientům.
               </p>
             </section>
 
             <section class="divider">
-              <h1>Motory a převodové motory</h1>
+              <h1>Výkopové práce</h1>
               <p>
-                Krátký popis produktu zdůrazňující hlavní použití a vlastnosti
-                výrobku.
+                Nabízíme profesionální výkopové a výkopové práce pro firmy, které potřebují připravit terén nebo vykopt určité oblasti na svých parcelách. Naši zruční a efektivní pracovníci zajišťují přesný a včasný výkop, poskytující pevný základ pro vaše stavební projekty.
               </p>
             </section>
 
             <section class="divider">
-              <h1>Indukční/kapacitní senzory</h1>
+              <h1>Úklid pozemku a vyrovnávání terénu </h1>
               <p>
-                Krátký popis produktu zdůrazňující hlavní použití a vlastnosti
-                výrobku.
+              Naše zkušené týmy se specializují na úklid pozemků a vyrovnávání terénu. Ať už potřebujete odstranit vegetaci, odstranit trosky nebo vyrovnat terén pro účely stavby, máme odborné znalosti a vybavení k efektivnímu zvládnutí úkolu. Zajišťujeme, že váš pozemek je připravený pro vaše zamýšlené využití, ať už se jedná o komerční, rezidenční nebo průmyslové účely.
               </p>
             </section>
 
             <section>
-              <h1>Inductive/Capacitive Sensors</h1>
+              <h1>Instalace infrastruktury</h1>
               <p>
-                Krátký popis produktu zdůrazňující hlavní použití a vlastnosti
-                výrobku.
+              Poskytujeme výkopové práce pro instalaci různých infrastrukturních sítí, jako jsou vodovodní a kanalizační potrubí, elektrické kabely a telekomunikační vedení. Naši odborní pracovníci zajišťují přesné výkopové práce, které odpovídají specifickým požadavkům vaší infrastruktury, umožňující bezproblémovou instalaci a efektivní funkčnost.
               </p>
             </section>
           </div>
@@ -101,8 +97,7 @@
           <div class="our_products_content_right">
             <!-- Right Content -->
             <h1>
-              The only place where you’ll get the perfect solution for all your
-              industry needs.
+            Jediné místo, kde získáte dokonalé řešení pro všechny potřeby vašeho oboru.
             </h1>
 
             <a class="cta" href="#"><button>Kontakt</button></a>
